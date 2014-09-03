@@ -73,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="236" y="139"/>
         </scene>
-        <!--View Controller - Enter Code-->
+        <!--Verify View Controller - Enter Code-->
         <scene sceneID="GoZ-4P-db8">
             <objects>
-                <viewController id="8eS-Z2-ARr" sceneMemberID="viewController">
+                <viewController id="8eS-Z2-ARr" customClass="SSVVerifyViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Of0-PL-Hm8"/>
                         <viewControllerLayoutGuide type="bottom" id="Wqw-st-mY1"/>
@@ -92,7 +92,7 @@
                                     <constraint firstAttribute="height" constant="30" id="K9T-yy-eGE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your code:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfc-Ey-LrO">
                                 <rect key="frame" x="20" y="240" width="280" height="21"/>

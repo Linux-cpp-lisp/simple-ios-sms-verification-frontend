@@ -1,5 +1,5 @@
 //
-//  SSVViewController.h
+//  SSVVerifyViewController.h
 //  Simple SMS Verification
 //
 //  Created by A on 9/3/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SSVViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITextField *phoneTextField;
+@interface SSVVerifyViewController : UIViewController
+
 @end
