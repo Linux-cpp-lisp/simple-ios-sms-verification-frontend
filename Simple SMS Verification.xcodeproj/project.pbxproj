@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F0BBD419B7D4D30048C077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F0BBD319B7D4D30048C077 /* Foundation.framework */; };
+		00F0BBD619B7D4D30048C077 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F0BBD519B7D4D30048C077 /* CoreGraphics.framework */; };
+		00F0BBD819B7D4D30048C077 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F0BBD719B7D4D30048C077 /* UIKit.framework */; };
+		00F0BBDE19B7D4D40048C077 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F0BBDC19B7D4D40048C077 /* InfoPlist.strings */; };
+		00F0BBE019B7D4D40048C077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F0BBDF19B7D4D40048C077 /* main.m */; };
+		00F0BBE419B7D4D40048C077 /* SSVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F0BBE319B7D4D40048C077 /* SSVAppDelegate.m */; };
+		00F0BBE719B7D4D40048C077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F0BBE519B7D4D40048C077 /* Main.storyboard */; };
+		00F0BBEA19B7D4D40048C077 /* SSVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F0BBE919B7D4D40048C077 /* SSVViewController.m */; };
+		00F0BBEC19B7D4D40048C077 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F0BBEB19B7D4D40048C077 /* Images.xcassets */; };
+		00F0BBF319B7D4D40048C077 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F0BBF219B7D4D40048C077 /* XCTest.framework */; };
+		00F0BBF419B7D4D40048C077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F0BBD319B7D4D30048C077 /* Foundation.framework */; };
+		00F0BBF519B7D4D40048C077 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F0BBD719B7D4D30048C077 /* UIKit.framework */; };
+		00F0BBFD19B7D4D40048C077 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F0BBFB19B7D4D40048C077 /* InfoPlist.strings */; };
+		00F0BBFF19B7D4D40048C077 /* Simple_SMS_VerificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F0BBFE19B7D4D40048C077 /* Simple_SMS_VerificationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00F0BBF619B7D4D40048C077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00F0BBC819B7D4D30048C077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F0BBCF19B7D4D30048C077;
+			remoteInfo = "Simple SMS Verification";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F0BBD019B7D4D30048C077 /* Simple SMS Verification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple SMS Verification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F0BBD319B7D4D30048C077 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00F0BBD519B7D4D30048C077 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00F0BBD719B7D4D30048C077 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00F0BBDB19B7D4D40048C077 /* Simple SMS Verification-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple SMS Verification-Info.plist"; sourceTree = "<group>"; };
+		00F0BBDD19B7D4D40048C077 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00F0BBDF19B7D4D40048C077 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00F0BBE119B7D4D40048C077 /* Simple SMS Verification-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple SMS Verification-Prefix.pch"; sourceTree = "<group>"; };
+		00F0BBE219B7D4D40048C077 /* SSVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSVAppDelegate.h; sourceTree = "<group>"; };
+		00F0BBE319B7D4D40048C077 /* SSVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSVAppDelegate.m; sourceTree = "<group>"; };
+		00F0BBE619B7D4D40048C077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00F0BBE819B7D4D40048C077 /* SSVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSVViewController.h; sourceTree = "<group>"; };
+		00F0BBE919B7D4D40048C077 /* SSVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSVViewController.m; sourceTree = "<group>"; };
+		00F0BBEB19B7D4D40048C077 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00F0BBF119B7D4D40048C077 /* Simple SMS VerificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple SMS VerificationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F0BBF219B7D4D40048C077 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		00F0BBFA19B7D4D40048C077 /* Simple SMS VerificationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple SMS VerificationTests-Info.plist"; sourceTree = "<group>"; };
+		00F0BBFC19B7D4D40048C077 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00F0BBFE19B7D4D40048C077 /* Simple_SMS_VerificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_SMS_VerificationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00F0BBCD19B7D4D30048C077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F0BBD619B7D4D30048C077 /* CoreGraphics.framework in Frameworks */,
+				00F0BBD819B7D4D30048C077 /* UIKit.framework in Frameworks */,
+				00F0BBD419B7D4D30048C077 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F0BBEE19B7D4D40048C077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F0BBF319B7D4D40048C077 /* XCTest.framework in Frameworks */,
+				00F0BBF519B7D4D40048C077 /* UIKit.framework in Frameworks */,
+				00F0BBF419B7D4D40048C077 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F0BBC719B7D4D30048C077 = {
+			isa = PBXGroup;
+			children = (
+				00F0BBD919B7D4D30048C077 /* Simple SMS Verification */,
+				00F0BBF819B7D4D40048C077 /* Simple SMS VerificationTests */,
+				00F0BBD219B7D4D30048C077 /* Frameworks */,
+				00F0BBD119B7D4D30048C077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00F0BBD119B7D4D30048C077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00F0BBD019B7D4D30048C077 /* Simple SMS Verification.app */,
+				00F0BBF119B7D4D40048C077 /* Simple SMS VerificationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00F0BBD219B7D4D30048C077 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00F0BBD319B7D4D30048C077 /* Foundation.framework */,
+				00F0BBD519B7D4D30048C077 /* CoreGraphics.framework */,
+				00F0BBD719B7D4D30048C077 /* UIKit.framework */,
+				00F0BBF219B7D4D40048C077 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00F0BBD919B7D4D30048C077 /* Simple SMS Verification */ = {
+			isa = PBXGroup;
+			children = (
+				00F0BBE219B7D4D40048C077 /* SSVAppDelegate.h */,
+				00F0BBE319B7D4D40048C077 /* SSVAppDelegate.m */,
+				00F0BBE519B7D4D40048C077 /* Main.storyboard */,
+				00F0BBE819B7D4D40048C077 /* SSVViewController.h */,
+				00F0BBE919B7D4D40048C077 /* SSVViewController.m */,
+				00F0BBEB19B7D4D40048C077 /* Images.xcassets */,
+				00F0BBDA19B7D4D40048C077 /* Supporting Files */,
+			);
+			path = "Simple SMS Verification";
+			sourceTree = "<group>";
+		};
+		00F0BBDA19B7D4D40048C077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00F0BBDB19B7D4D40048C077 /* Simple SMS Verification-Info.plist */,
+				00F0BBDC19B7D4D40048C077 /* InfoPlist.strings */,
+				00F0BBDF19B7D4D40048C077 /* main.m */,
+				00F0BBE119B7D4D40048C077 /* Simple SMS Verification-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00F0BBF819B7D4D40048C077 /* Simple SMS VerificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				00F0BBFE19B7D4D40048C077 /* Simple_SMS_VerificationTests.m */,
+				00F0BBF919B7D4D40048C077 /* Supporting Files */,
+			);
+			path = "Simple SMS VerificationTests";
+			sourceTree = "<group>";
+		};
+		00F0BBF919B7D4D40048C077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00F0BBFA19B7D4D40048C077 /* Simple SMS VerificationTests-Info.plist */,
+				00F0BBFB19B7D4D40048C077 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00F0BBCF19B7D4D30048C077 /* Simple SMS Verification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F0BC0219B7D4D40048C077 /* Build configuration list for PBXNativeTarget "Simple SMS Verification" */;
+			buildPhases = (
+				00F0BBCC19B7D4D30048C077 /* Sources */,
+				00F0BBCD19B7D4D30048C077 /* Frameworks */,
+				00F0BBCE19B7D4D30048C077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple SMS Verification";
+			productName = "Simple SMS Verification";
+			productReference = 00F0BBD019B7D4D30048C077 /* Simple SMS Verification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00F0BBF019B7D4D40048C077 /* Simple SMS VerificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F0BC0519B7D4D40048C077 /* Build configuration list for PBXNativeTarget "Simple SMS VerificationTests" */;
+			buildPhases = (
+				00F0BBED19B7D4D40048C077 /* Sources */,
+				00F0BBEE19B7D4D40048C077 /* Frameworks */,
+				00F0BBEF19B7D4D40048C077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00F0BBF719B7D4D40048C077 /* PBXTargetDependency */,
+			);
+			name = "Simple SMS VerificationTests";
+			productName = "Simple SMS VerificationTests";
+			productReference = 00F0BBF119B7D4D40048C077 /* Simple SMS VerificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00F0BBC819B7D4D30048C077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SSV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Toadbytes;
+				TargetAttributes = {
+					00F0BBF019B7D4D40048C077 = {
+						TestTargetID = 00F0BBCF19B7D4D30048C077;
+					};
+				};
+			};
+			buildConfigurationList = 00F0BBCB19B7D4D30048C077 /* Build configuration list for PBXProject "Simple SMS Verification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00F0BBC719B7D4D30048C077;
+			productRefGroup = 00F0BBD119B7D4D30048C077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F0BBCF19B7D4D30048C077 /* Simple SMS Verification */,
+				00F0BBF019B7D4D40048C077 /* Simple SMS VerificationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00F0BBCE19B7D4D30048C077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F0BBEC19B7D4D40048C077 /* Images.xcassets in Resources */,
+				00F0BBDE19B7D4D40048C077 /* InfoPlist.strings in Resources */,
+				00F0BBE719B7D4D40048C077 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F0BBEF19B7D4D40048C077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F0BBFD19B7D4D40048C077 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00F0BBCC19B7D4D30048C077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F0BBE019B7D4D40048C077 /* main.m in Sources */,
+				00F0BBEA19B7D4D40048C077 /* SSVViewController.m in Sources */,
+				00F0BBE419B7D4D40048C077 /* SSVAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F0BBED19B7D4D40048C077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F0BBFF19B7D4D40048C077 /* Simple_SMS_VerificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00F0BBF719B7D4D40048C077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00F0BBCF19B7D4D30048C077 /* Simple SMS Verification */;
+			targetProxy = 00F0BBF619B7D4D40048C077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00F0BBDC19B7D4D40048C077 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F0BBDD19B7D4D40048C077 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00F0BBE519B7D4D40048C077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F0BBE619B7D4D40048C077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00F0BBFB19B7D4D40048C077 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F0BBFC19B7D4D40048C077 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00F0BC0019B7D4D40048C077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00F0BC0119B7D4D40048C077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00F0BC0319B7D4D40048C077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple SMS Verification/Simple SMS Verification-Prefix.pch";
+				INFOPLIST_FILE = "Simple SMS Verification/Simple SMS Verification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00F0BC0419B7D4D40048C077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple SMS Verification/Simple SMS Verification-Prefix.pch";
+				INFOPLIST_FILE = "Simple SMS Verification/Simple SMS Verification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		00F0BC0619B7D4D40048C077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple SMS Verification.app/Simple SMS Verification";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple SMS Verification/Simple SMS Verification-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Simple SMS VerificationTests/Simple SMS VerificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		00F0BC0719B7D4D40048C077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple SMS Verification.app/Simple SMS Verification";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple SMS Verification/Simple SMS Verification-Prefix.pch";
+				INFOPLIST_FILE = "Simple SMS VerificationTests/Simple SMS VerificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00F0BBCB19B7D4D30048C077 /* Build configuration list for PBXProject "Simple SMS Verification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F0BC0019B7D4D40048C077 /* Debug */,
+				00F0BC0119B7D4D40048C077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F0BC0219B7D4D40048C077 /* Build configuration list for PBXNativeTarget "Simple SMS Verification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F0BC0319B7D4D40048C077 /* Debug */,
+				00F0BC0419B7D4D40048C077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00F0BC0519B7D4D40048C077 /* Build configuration list for PBXNativeTarget "Simple SMS VerificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F0BC0619B7D4D40048C077 /* Debug */,
+				00F0BC0719B7D4D40048C077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00F0BBC819B7D4D30048C077 /* Project object */;
+}
