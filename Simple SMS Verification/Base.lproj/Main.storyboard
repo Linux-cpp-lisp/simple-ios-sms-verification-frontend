@@ -1,25 +1,138 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Jnu-MY-skv">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Navigation Controller-->
+        <scene sceneID="7bJ-XA-wqD">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="SSVViewController" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" id="Jnu-MY-skv" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3CF-DI-sEz">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="TQ6-Ph-Swv" kind="relationship" relationship="rootViewController" id="9xl-ZW-GS9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="asA-HC-qnK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-158" y="139"/>
+        </scene>
+        <!--View Controller - Phone Number-->
+        <scene sceneID="W9i-Jf-CH4">
+            <objects>
+                <viewController title="Phone Number" id="TQ6-Ph-Swv" customClass="SSVViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="Omo-zE-YTX"/>
+                        <viewControllerLayoutGuide type="bottom" id="2ES-Cm-6Sm"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="dHF-zu-Tcf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="IeG-H1-WK4">
+                                <rect key="frame" x="20" y="269" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your phone number:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PmM-xb-EIJ">
+                                <rect key="frame" x="20" y="240" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="kBj-jh-leO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IeG-H1-WK4" firstAttribute="top" secondItem="PmM-xb-EIJ" secondAttribute="bottom" constant="8" id="2zo-ox-vgZ"/>
+                            <constraint firstAttribute="centerY" secondItem="IeG-H1-WK4" secondAttribute="centerY" id="3Vu-lh-4rJ"/>
+                            <constraint firstItem="PmM-xb-EIJ" firstAttribute="leading" secondItem="dHF-zu-Tcf" secondAttribute="leading" constant="20" id="Gh6-Rg-1Es"/>
+                            <constraint firstAttribute="trailing" secondItem="PmM-xb-EIJ" secondAttribute="trailing" constant="20" id="dSi-6X-gVz"/>
+                            <constraint firstAttribute="trailing" secondItem="IeG-H1-WK4" secondAttribute="trailing" constant="20" id="rvb-s5-EJV"/>
+                            <constraint firstItem="IeG-H1-WK4" firstAttribute="leading" secondItem="dHF-zu-Tcf" secondAttribute="leading" constant="20" id="vxx-Yw-nbS"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Enter Phone Number" id="b2A-5m-DsM">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="HIh-bK-2gI">
+                            <connections>
+                                <segue destination="8eS-Z2-ARr" kind="push" id="9Ea-hm-z8i"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="phoneTextField" destination="IeG-H1-WK4" id="EaQ-Gc-5LT"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EIC-Sj-LAe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="236" y="139"/>
+        </scene>
+        <!--View Controller - Enter Code-->
+        <scene sceneID="GoZ-4P-db8">
+            <objects>
+                <viewController id="8eS-Z2-ARr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Of0-PL-Hm8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wqw-st-mY1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ckE-hM-ogB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YdX-mL-gNo">
+                                <rect key="frame" x="20" y="269" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="K9T-yy-eGE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your code:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfc-Ey-LrO">
+                                <rect key="frame" x="20" y="240" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="8O6-zs-obd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You should have recived a text message with your verification code. Please enter the code here." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="TRo-TT-Nqp">
+                                <rect key="frame" x="20" y="72" width="280" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="FBF-rD-Phw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TRo-TT-Nqp" firstAttribute="top" secondItem="Of0-PL-Hm8" secondAttribute="bottom" constant="8" id="Hqt-fb-ph3"/>
+                            <constraint firstItem="qfc-Ey-LrO" firstAttribute="leading" secondItem="ckE-hM-ogB" secondAttribute="leading" constant="20" id="MZ9-i6-dIn"/>
+                            <constraint firstItem="YdX-mL-gNo" firstAttribute="leading" secondItem="ckE-hM-ogB" secondAttribute="leading" constant="20" id="WV0-dv-NNG"/>
+                            <constraint firstAttribute="centerY" secondItem="YdX-mL-gNo" secondAttribute="centerY" id="f3a-XP-6Jw"/>
+                            <constraint firstItem="TRo-TT-Nqp" firstAttribute="leading" secondItem="ckE-hM-ogB" secondAttribute="leading" constant="20" id="jsW-yJ-TRJ"/>
+                            <constraint firstAttribute="trailing" secondItem="YdX-mL-gNo" secondAttribute="trailing" constant="20" id="k02-pG-inW"/>
+                            <constraint firstAttribute="trailing" secondItem="TRo-TT-Nqp" secondAttribute="trailing" constant="20" id="tCe-7S-Ni9"/>
+                            <constraint firstItem="YdX-mL-gNo" firstAttribute="top" secondItem="qfc-Ey-LrO" secondAttribute="bottom" constant="8" id="tpt-fb-8pY"/>
+                            <constraint firstAttribute="trailing" secondItem="qfc-Ey-LrO" secondAttribute="trailing" constant="20" id="xie-nM-RtJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Enter Code" id="Xsx-iQ-x9A">
+                        <barButtonItem key="rightBarButtonItem" title="Verify" id="8Kl-Hq-dsi"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pbI-JX-cwr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="614" y="139"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

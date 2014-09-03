@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SSVViewController : UIViewController
-
+- (IBAction)verify:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *phoneTextField;
 @end
