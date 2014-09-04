@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		000AC47419B7DA56007E190B /* SSVVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000AC47319B7DA56007E190B /* SSVVerifyViewController.m */; };
+		000AC47719B7DD11007E190B /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 000AC47619B7DD11007E190B /* UIAlertView+Blocks.m */; };
 		00F0BBD419B7D4D30048C077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F0BBD319B7D4D30048C077 /* Foundation.framework */; };
 		00F0BBD619B7D4D30048C077 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F0BBD519B7D4D30048C077 /* CoreGraphics.framework */; };
 		00F0BBD819B7D4D30048C077 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F0BBD719B7D4D30048C077 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* Begin PBXFileReference section */
 		000AC47219B7DA56007E190B /* SSVVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSVVerifyViewController.h; sourceTree = "<group>"; };
 		000AC47319B7DA56007E190B /* SSVVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSVVerifyViewController.m; sourceTree = "<group>"; };
+		000AC47519B7DD11007E190B /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		000AC47619B7DD11007E190B /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
 		00F0BBD019B7D4D30048C077 /* Simple SMS Verification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple SMS Verification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F0BBD319B7D4D30048C077 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00F0BBD519B7D4D30048C077 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,8 @@
 		00F0BBD919B7D4D30048C077 /* Simple SMS Verification */ = {
 			isa = PBXGroup;
 			children = (
+				000AC47519B7DD11007E190B /* UIAlertView+Blocks.h */,
+				000AC47619B7DD11007E190B /* UIAlertView+Blocks.m */,
 				00F0BBE219B7D4D40048C077 /* SSVAppDelegate.h */,
 				00F0BBE319B7D4D40048C077 /* SSVAppDelegate.m */,
 				00F0BBE519B7D4D40048C077 /* Main.storyboard */,
@@ -257,6 +262,7 @@
 			files = (
 				000AC47419B7DA56007E190B /* SSVVerifyViewController.m in Sources */,
 				00F0BBE019B7D4D40048C077 /* main.m in Sources */,
+				000AC47719B7DD11007E190B /* UIAlertView+Blocks.m in Sources */,
 				00F0BBEA19B7D4D40048C077 /* SSVViewController.m in Sources */,
 				00F0BBE419B7D4D40048C077 /* SSVAppDelegate.m in Sources */,
 			);

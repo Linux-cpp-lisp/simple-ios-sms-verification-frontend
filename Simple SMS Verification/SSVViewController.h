@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "SSVVerifyViewController.h"
+
 @interface SSVViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *phoneTextField;
 @end
